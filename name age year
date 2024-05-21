@@ -1,0 +1,8 @@
+a=input("enter your name :")
+print(a)
+b=input("enter your age :")
+print(b)
+c=input("enter your year :")
+print(c)
+d=input("Enter your place :")
+print(d)
