@@ -282,6 +282,18 @@ def function(n1,n2=20):
 # d=fact(x)
 # print(d)
 
+def fact(n):
+        if n==1 or n==0:
+                return 1
+        else:
+                return n*fact(n-1)
+        
 
-fibin0cci
+
+r=fact(3)
+print(r)
+
+
+
+
 

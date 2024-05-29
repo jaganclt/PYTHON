@@ -38,13 +38,13 @@
 # uw=[i.upper() for i in words if len(i)>5]
 # print(uw)
 
-l1=[1,2,3,4,5,6,7,8]
+# l1=[1,2,3,4,5,6,7,8]
 # result=["even" if i%2==0  else "odd" for i in l1]
 # print(result)
 # result=[i for i in l1 if i%2==0 ]
 # print(result)
 
-l2=[10,11,12,13,14]
+# l2=[10,11,12,13,14]
 # print(list(zip(l1,l2)))
 
 
@@ -52,5 +52,5 @@ l2=[10,11,12,13,14]
     # print(x*y)
 
 
-p=[x*y for x,y in zip(l1,l2)]
-print(p)
+# p=[x*y for x,y in zip(l1,l2)]
+# print(p)

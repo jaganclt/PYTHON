@@ -19,7 +19,7 @@ def withdraw_acc(s_v):
         s_v[a]=s_v[a]-b
         print("balance amount is :",s_v[a])
     else:
-        print("account doesnot exist ")
+        print("account doesnot exist or inuficcent balance ")
 def delete_acc(s_v):
     a=int(input("enter the account id :"))
     if a in s_v:
